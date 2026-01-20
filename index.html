@@ -76,8 +76,8 @@
                 <div class="input-group"><label>Factor (硫酸鋅)</label><input type="number" id="al_factor" value="1.0000" step="0.0001"></div>
             </div>
             <div class="row">
-                <div class="input-group"><label>NC R1 消耗量(ml)</label><input type="number" id="al_nc_r1" step="0.01"></div>
-                <div class="input-group"><label>NC R2 消耗量(ml)</label><input type="number" id="al_nc_r2" step="0.01"></div>
+                <div class="input-group"><label>NC R1 硫代硫酸鈉消耗量(ml)</label><input type="number" id="al_nc_r1" step="0.01"></div>
+                <div class="input-group"><label>NC R2 硫代硫酸鈉消耗量(ml)</label><input type="number" id="al_nc_r2" step="0.01"></div>
             </div>
         </div>
         <div id="al_sample_container"></div>
@@ -86,12 +86,12 @@
         <div class="section">
             <div class="section-title">Step 3: PC (陽性對照)</div>
             <div class="row">
-                <div class="input-group"><label>PC R1 重(g)</label><input type="number" id="al_pc_w1" step="0.0001"></div>
-                <div class="input-group"><label>PC R1 消耗(ml)</label><input type="number" id="al_pc_v1" step="0.01"></div>
+                <div class="input-group"><label>PC R1 檢品重(g)</label><input type="number" id="al_pc_w1" step="0.0001"></div>
+                <div class="input-group"><label>PC R1 硫代硫酸鈉消耗(ml)</label><input type="number" id="al_pc_v1" step="0.01"></div>
             </div>
             <div class="row">
-                <div class="input-group"><label>PC R2 重(g)</label><input type="number" id="al_pc_w2" step="0.0001"></div>
-                <div class="input-group"><label>PC R2 消耗(ml)</label><input type="number" id="al_pc_v2" step="0.01"></div>
+                <div class="input-group"><label>PC R2 檢品重(g)</label><input type="number" id="al_pc_w2" step="0.0001"></div>
+                <div class="input-group"><label>PC R2 硫代硫酸鈉消耗(ml)</label><input type="number" id="al_pc_v2" step="0.01"></div>
             </div>
         </div>
     </div>
@@ -104,7 +104,7 @@
                 <div class="input-group"><label>碘液 Factor</label><input type="number" id="fm_f_i" value="1.0000" step="0.0001"></div>
             </div>
             <div class="row">
-                <div class="input-group"><label>A: 陰性對照消耗(ml)</label><input type="number" id="fm_a" step="0.01"></div>
+                <div class="input-group"><label>A: 陰性對照 硫代硫酸鈉消耗(ml)</label><input type="number" id="fm_a" step="0.01"></div>
             </div>
         </div>
         <div id="fm_sample_container"></div>
@@ -234,4 +234,5 @@ function runCalculation() {
 }
 </script>
 </body>
+
 </html>
